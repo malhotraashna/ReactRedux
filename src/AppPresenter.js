@@ -1,10 +1,13 @@
+import React, {Component} from 'react';
 import {
     activateGeod,
     closeGeod,
-  } from './action';
-  
-   export class App extends Component {
-  
+} from './action';
+
+import {geod} from './AppContainer';
+
+   export default class App extends Component {
+
     render() {
       return (
         <div>
@@ -23,6 +26,5 @@ import {
         </div>
       );
     }
-  
   }
   

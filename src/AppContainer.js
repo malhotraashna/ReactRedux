@@ -3,10 +3,11 @@ import React, {
   } from 'react';
   
 import { connect } from 'react-redux';
+import {App} from './AppPresenter';
   
 import {
     activateGeod,
-    closeGeod,
+    closeGeod
 } from './action';
 
 const mapStateToProps = (state, ownProps) => ({
@@ -17,7 +18,7 @@ const mapStateToProps = (state, ownProps) => ({
     activateGeod,
     closeGeod,
   };
-  
+  console.log(typeof App)
   const AppContainer = connect(
     mapStateToProps,
     mapDispatchToProps

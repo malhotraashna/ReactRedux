@@ -1,4 +1,8 @@
 import { combineReducers } from 'redux';
+import {
+  activateGeod,
+  closeGeod,
+} from './action';
 
 export const geod = (state = {}, action) => {
     switch (action.type) {
