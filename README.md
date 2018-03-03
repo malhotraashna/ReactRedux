@@ -1,3 +1,3 @@
-# ReactRedux
+# Todo List
 
-A simple React-Redux application. The text changes on the button click.
+It lets user add a Todo item and display it in the list below.
