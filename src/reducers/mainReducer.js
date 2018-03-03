@@ -1,8 +1,7 @@
 import {combineReducers} from 'redux';
 import FirstName from './displayReducer';
-import LastName from './displayLast';
+import addTodo from './addTodo';
 
 export const allReducers = combineReducers({
-    first: FirstName,
-    last: LastName
+    add: addTodo
 });
