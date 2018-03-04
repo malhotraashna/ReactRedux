@@ -1,3 +1,3 @@
 # ReactRedux
 
-A simple React-Redux application. The text changes on the button click.
+The Desktop App for Todo List(the electron version).
